@@ -1,3 +1,36 @@
+# Estructura del Proyecto
+
+La estructura principal del proyecto es la siguiente:
+
+```plaintext
+atis-backup/
+├── client/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── App.scss
+│   │   ├── main.jsx
+│   │   └── Components/
+│   │       ├── Dashboard/
+│   │       │   └── Dashboard.jsx
+│   │       ├── Login/
+│   │       │   ├── Login.jsx
+│   │       │   ├── Login.css
+│   │       │   └── Login.scss
+│   │       └── Register/
+│   │           ├── Register.jsx
+│   │           ├── Register.css
+│   │           └── Register.scss
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   └── index.html
+├── server/
+└── README.md
+```
+
+---
+
 # ATIs-System: Sistema de Gestión
 
 Este proyecto es una aplicación web desarrollada como parte de un sistema de gestión. Está compuesto por un frontend construido con **React** y **Vite**, y un backend (en la carpeta `server/`, no documentado aquí).
@@ -37,17 +70,6 @@ Las dependencias principales se encuentran en el archivo `package.json`. Algunas
 
 ---
 
-# React + Vite
+# Grupo de Trabajo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
+## La pinta, La Niña y La Santa Maria.
