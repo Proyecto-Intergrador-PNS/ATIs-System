@@ -2,7 +2,11 @@ import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    
+    <div>
+      This ois the dashboard
+      <a href="/">Log out</a>
+    </div>
   )
 }
 
